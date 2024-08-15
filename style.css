@@ -13,7 +13,8 @@
 }
 #noicetomlink {
     text-transform: uppercase;
-    font-size: larger;
+    font-size: xx-large;
     letter-spacing: 0.26rem;
-    font-style: none;
+    text-decoration: none;
+    /* color: ; */
 }
