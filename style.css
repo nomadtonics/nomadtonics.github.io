@@ -1,6 +1,6 @@
 html, body{
     background-color: brown;
-    color: #001928;
+    /* color: #001928; */
 }
 #root {
     margin-top: 2.6rem;
@@ -10,14 +10,11 @@ html, body{
     /* border-spacing: ; */
     background-color: rgba(0, 0, 0, 0);
 }
-#greeting {
-    color: #abcdef;
-    text-transform: capitalize;
-}
 #noicetomlink {
     text-transform: uppercase;
-    font-size: xx-large;
+    font-size: 2.6rem;
     letter-spacing: 0.8rem;
     text-decoration: none;
-    /* color: ; */
+    color: #001928;
+
 }
