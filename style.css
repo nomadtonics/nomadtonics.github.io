@@ -1,15 +1,14 @@
 html, body{
     background-color: brown;
+    color: #001928;
 }
 #root {
-    margin: 0.26rem;
-    padding: 0.26rem;
-    padding-top: 2rem;
+    margin-top: 2.6rem;
+    padding-bottom: 0.26rem;
     border-color: #abcdef;
     border-style: solid;
     /* border-spacing: ; */
     background-color: rgba(0, 0, 0, 0);
-    color: #001928;
 }
 #greeting {
     color: #abcdef;
