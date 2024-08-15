@@ -6,7 +6,7 @@ html, body{
     margin-top: 2.6rem;
     padding-bottom: 0.26rem;
     border-color: #abcdef;
-    border-style: solid;
+    /* border-style: solid; */
     /* border-spacing: ; */
     background-color: rgba(0, 0, 0, 0);
 }
