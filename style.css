@@ -7,7 +7,7 @@ html, body{
     border-color: #abcdef;
     border-style: solid;
     /* border-spacing: ; */
-    background-color: #001928;
+    background-color: rgba(0, 0, 0, 0);
     color: #abcdef;
 }
 #greeting {
