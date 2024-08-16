@@ -1,8 +1,18 @@
 const root = document.getElementById('root')
 const poptitle = document.createElement('h1')
-poptitle.innerHTML = 'noicetom'.toUpperCase()
+poptitle.innerHTML = 'nomadtonics'.toUpperCase()
 poptitle.setAttribute('id', 'noicetomlink')
 poptitle.addEventListener('click', () => {
-    window.location.href = '/noicetom'
+    window.location.href = '/'
 })
-root.appendChild(poptitle)
+// root.appendChild(poptitle)
+const navbar = document.createElement('nav')
+navbar.setAttribute('id', 'popnav')
+navbar.appendChild(poptitle)
+const menu = document.createElement('ul')
+menu.setAttribute('id', 'popmenu')
+const menuitem = document.createElement('li')
+menuitem.setAttribute('id', 'menuitem')
+menu.appendChild(menuitem)
+navbar.appendChild(menu)
+root.appendChild(navbar)
