@@ -1,9 +1,9 @@
 html, body{
-    background-color: brown;
+    background-color: rgba(91, 165, 42, 0.8);
     /* color: #001928; */
 }
 #root {
-    margin-top: 2.6rem;
+    /*margin-top: 2.6rem;*/
     padding-bottom: 0.26rem;
     border-color: #abcdef;
     /* border-style: solid; */
@@ -19,4 +19,16 @@ html, body{
     background-color: #009211;
     text-decoration: none;
     text-align: center;
+}
+#popnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+#popsection{
+    height: 30vh;
+    width: 90vw;
+    margin: 10vmax;
+    background-color:darkgray;
 }

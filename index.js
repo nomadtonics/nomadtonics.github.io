@@ -16,3 +16,13 @@ menuitem.setAttribute('id', 'menuitem')
 menu.appendChild(menuitem)
 navbar.appendChild(menu)
 root.appendChild(navbar)
+const popsection = () => {
+    const sec = document.createElement('section')
+    sec.setattribute('id', 'popsection')
+    return sec
+}
+const lfh = document.createElement('h3')
+lfh.setattribute('id', 'loginformheading')
+lfh.innerHTML = 'login'
+popsection.appendChild(lfh)
+root.appendChild(popsection())
