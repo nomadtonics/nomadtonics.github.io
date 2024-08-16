@@ -22,7 +22,7 @@ const popsection = () => {
     return sec
 }
 const lfh = document.createElement('h3')
-lfh.setattribute('id', 'loginformheading')
+lfh.setAttribute('id', 'loginformheading')
 lfh.innerHTML = 'login'
 popsection.appendChild(lfh)
 root.appendChild(popsection())
