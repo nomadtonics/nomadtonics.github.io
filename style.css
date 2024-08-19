@@ -6,3 +6,8 @@
 html, body {
     background-color: #fff;
 }
+#navbar {
+    z-index: 999;
+    background-color: #001928;
+    height: 20vh;
+}
