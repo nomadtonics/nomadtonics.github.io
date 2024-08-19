@@ -3,6 +3,8 @@ const title = document.querySelector('title')
 title.style.textTransform = 'uppercase'
 // root div of the app
 const nomad = document.getElementById('nomad')
+// nomad style id
+nomad.setAttribute('id', 'nomad')
 // navigation bar for the app
 const navbar = document.createElement('nav')
 // set navigation bar id
@@ -23,7 +25,5 @@ mainsection.innerHTML = `
 <spa></span>`
 mainsection.setAttribute('id', 'mainsection')
 const mainfooter = document.createElement('footer')
-console.log(navbar)
-console.log(mainsection)
 document.body.appendChild(navbar)
 document.body.appendChild(mainsection)

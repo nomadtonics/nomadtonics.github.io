@@ -19,3 +19,7 @@ html, body {
 #logo {
     size: '100x100';
 }
+#nomad {
+    background-color: brown;
+    size: '100x100';
+}
