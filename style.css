@@ -10,7 +10,7 @@ html, body {
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     position: sticky;
     z-index: 999;
     background-color: #abcdef;
@@ -19,11 +19,20 @@ html, body {
     padding: 24px;
     background-color: #001928;
 }
+#menu-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo-container {
+    padding: 24px;
+    background-color: aquamarine;
+}
 #logo-image {
     height: 100%;
     width: 100%;
 }
 #nomad {
     background-color: brown;
-    size: '100x100';
 }
