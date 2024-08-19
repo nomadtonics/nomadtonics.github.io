@@ -5,6 +5,7 @@
 }
 html, body {
     background-color: #fff;
+    position: fixed;
 }
 #navbar {
     position: sticky;
