@@ -11,3 +11,7 @@ html, body {
     background-color: #001928;
     height: 20vh;
 }
+#mainsection {
+    padding: 24px;
+    background-color: #001928;
+}
