@@ -29,5 +29,5 @@ function mainfooter(){
     constfoot = document.createElement('footer')
     returnfoot
 }
-nomad.appendChild(navbar())
-nomad.appendChild(mainsection())
+nomad.appendChild(navbar)
+nomad.appendChild(mainsection)
