@@ -10,7 +10,7 @@ html, body {
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     position: sticky;
     z-index: 999;
     background-color: #001928;
@@ -20,7 +20,8 @@ html, body {
     background-color: #001928;
 }
 #logo-image {
-    size: '100x100';
+    height: 100%;
+    width: 100%;
 }
 #nomad {
     background-color: brown;
