@@ -20,5 +20,5 @@ mainsection.innerHTML = `
 <spa></span>`
 mainsection.setAttribute('id', 'mainsection')
 const mainfooter = document.createElement('footer')
-nomad.appendChild(navbar())
-nomad.appendChild(mainsection())
+nomad.appendChild(navbar)
+nomad.appendChild(mainsection)
