@@ -7,6 +7,7 @@ html, body {
     background-color: #fff;
 }
 #navbar {
+    position: sticky;
     z-index: 999;
     background-color: #001928;
     height: 20vh;
