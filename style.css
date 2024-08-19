@@ -29,8 +29,9 @@ html, body {
     background-color: aquamarine;
 }
 #logo-image {
-    height: 100%;
-    width: 100%;
+    margin: 8px;
+    height: 100px;
+    width: fit-content;
 }
 #nomad {
     background-color: brown;
