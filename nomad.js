@@ -7,7 +7,7 @@ const navbar = document.createElement('nav')
 navbar.setAttribute('id', 'navbar')
 navbar.innerHTML = `
 <ul id='nav-item'>
-<img src='./image.png' alt='no mad logo'>
+<img src='./logo.png' alt='no mad logo'>
 </ul>
 <ul id='nav-item'>
 <li>login</li>
