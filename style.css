@@ -27,6 +27,11 @@ html, body {
 }
 #logo-container {
     background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
 }
 #logo-image {
     margin: 8px;
