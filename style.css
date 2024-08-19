@@ -8,10 +8,12 @@ html, body {
     position: fixed;
 }
 #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: sticky;
     z-index: 999;
     background-color: #001928;
-    height: 20vh;
 }
 #mainsection {
     padding: 24px;
