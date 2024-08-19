@@ -36,7 +36,8 @@ html, body {
 }
 #logo-image {
     margin: 8px;
-    height: 100px;
+    height: 80px;
+    width: 120px;
 }
 #nomad {
     background-color: brown;
