@@ -27,18 +27,18 @@ form.onsubmit = async (ev) => {
     ];
 
     // Call the multimodal model, and get a stream of results
-    let stream = streamGemini({
-      model: 'gemini-1.5-flash', // or gemini-1.5-pro
-      contents,
-    });
+    // let stream = streamGemini({
+    //   model: 'gemini-1.5-flash', // or gemini-1.5-pro
+    //   contents,
+    // });
 
     // Read from the stream and interpret the output as markdown
     let buffer = [];
     let md = new markdownit();
-    for await (let chunk of stream) {
-      buffer.push(chunk);
-      output.innerHTML = md.render(buffer.join(''));
-    }
+    // for await (let chunk of stream) {
+    //   buffer.push(chunk);
+    //   output.innerHTML = md.render(buffer.join(''));
+    // }
   } catch (e) {
     output.innerHTML += '<hr>' + e;
   }
