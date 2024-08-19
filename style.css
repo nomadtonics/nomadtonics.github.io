@@ -17,8 +17,9 @@ html, body {
     padding: 24px;
     background-color: #001928;
 }
-#logoimg {
+#logo-image {
     size: '100x100';
+
 }
 #nomad {
     background-color: brown;
