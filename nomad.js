@@ -5,5 +5,5 @@ title.style.textTransform = 'uppercase'
 const nomad = document.getElementById('nomad')
 import { navbar } from './home'
 import { mainsection } from './home'
-nomad.appendChild(navbar)
-nomad.appendChild(mainsection)
+nomad.appendChild(navbar())
+nomad.appendChild(mainsection())
