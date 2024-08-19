@@ -16,3 +16,6 @@ html, body {
     padding: 24px;
     background-color: #001928;
 }
+#logo {
+    size: '100x100';
+}

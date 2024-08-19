@@ -10,7 +10,7 @@ navbar.setAttribute('id', 'navbar')
 // content to be displayed
 navbar.innerHTML = `
 <ul id='nav-item'>
-<img src='./logo.png' alt='no mad logo'>
+<img src='./logo.png' alt='no mad logo' id='logo'>
 </ul>
 <ul id='nav-item'>
 <li>login</li>
