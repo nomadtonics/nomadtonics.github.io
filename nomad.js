@@ -3,6 +3,14 @@ const title = document.querySelector('title')
 title.style.textTransform = 'uppercase'
 // root div of the app
 const nomad = document.getElementById('nomad')
+const titlenlogo = document.createElement('img')
+titlenlogo.setAttribute('id', 'titlenlogo')
+titlenlogo.setAttribute('alt', 'logo and title')
+titlenlogo.src = 'logo.png'
+titlenlogo.addEventListener('click', ()=> {
+    window.location.href('/noicetom')
+})
+nomad.appendChild(titlenlogo)
 // navigation bar for the app
 const navbar = document.createElement('nav')
 // set navigation bar id
@@ -25,11 +33,3 @@ mainsection.setAttribute('id', 'mainsection')
 const mainfooter = document.createElement('footer')
 nomad.appendChild(navbar)
 nomad.appendChild(mainsection)
-const titlenlogo = document.createElement('img')
-titlenlogo.setAttribute('id', 'titlenlogo')
-titlenlogo.setAttribute('alt', 'logo and title')
-titlenlogo.src = 'logo.png'
-titlenlogo.addEventListener('click', ()=> {
-    window.location.href('/noicetom')
-})
-nomad.appendChild(titlenlogo)
