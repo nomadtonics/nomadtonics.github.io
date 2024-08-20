@@ -61,4 +61,7 @@ html, body {
 #adiv {
     height: 50px;
     background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
