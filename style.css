@@ -38,8 +38,8 @@ html, body {
 }
 #logo-image {
     margin: 8px;
-    height: 100%;
-    width: 100%;
+    height: inherit;
+    width: inherit;
 }
 #nomad {
     background-color: brown;
