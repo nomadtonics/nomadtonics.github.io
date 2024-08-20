@@ -11,36 +11,44 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position: absolute;
+    position: sticky;
     z-index: 999;
     gap: 8px;
-    background-color: #abcdef;
-    padding: 0 24px;
-    line-height: 0px;
-    height: 40px;
 }
 #mainsection {
     padding: 24px;
-    background-color: #001928;
+    border: solid #000;
+    /* width: 400px; */
 }
 #menu-items {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 8px;
+    gap: 16px;
 }
 #logo-container {
-    background-color: aquamarine;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    height: 40px;
+    padding: 8px 0;
 }
 #logo-image {
     margin: 8px;
+    size: '100x100';
     height: inherit;
-    width: inherit;
 }
 #nomad {
     background-color: brown;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+#menu-item {
+    font-size: larger;
+    text-transform: capitalize;
+    letter-spacing: 2.1px;
+}
+#mainsecpara {
+    word-wrap: break-word;
 }
