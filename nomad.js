@@ -29,6 +29,9 @@ const titlenlogo = document.createElement('img')
 titlenlogo.setAttribute('id', 'titlenlogo')
 titlenlogo.setAttribute('alt', 'logo and title')
 titlenlogo.src = 'logo.png'
+titlenlogo.addEventListener('click', ()=> {
+    window.location.href('/noicetom')
+})
 document.body.appendChild(titlenlogo)
 const adiv = document.createElement('div')
 adiv.setAttribute('id','adiv')
