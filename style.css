@@ -16,6 +16,7 @@ html, body {
     gap: 8px;
     background-color: #abcdef;
     padding: 0 24px;
+    line-height: 0px;
 }
 #mainsection {
     padding: 24px;
