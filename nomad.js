@@ -33,7 +33,3 @@ titlenlogo.addEventListener('click', ()=> {
     window.location.href('/noicetom')
 })
 nomad.appendChild(titlenlogo)
-const adiv = document.createElement('div')
-adiv.setAttribute('id','adiv')
-adiv.appendChild(titlenlogo)
-nomad.appendChild(adiv)
