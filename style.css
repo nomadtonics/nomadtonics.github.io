@@ -36,7 +36,8 @@ html, body {
 }
 #logo-image {
     margin: 8px;
-    width: 100vmin;
+    width: inherit;
+    height: inherit;
 }
 #nomad {
     background-color: brown;
