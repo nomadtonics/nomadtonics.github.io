@@ -55,10 +55,12 @@ html, body {
     word-wrap: break-word;
 }
 #titlenlogo {
-    padding: 16px;
-    /* align-self: center; */
-    /* justify-self: center; */
-    background-color: brown
+    -webkit-user-select: none; /* Disable selection in Chrome/Safari */
+    -moz-user-select: none;    /* Disable selection in Firefox */
+    -ms-user-select: none;     /* Disable selection in IE/Edge */
+    user-select: none;         /* Disable selection in future browsers */
+    background-color: brown;
+    height: 24px;
 }
 #loginform {
     display: flex;
