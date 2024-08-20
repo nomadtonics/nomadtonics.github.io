@@ -29,3 +29,7 @@ const titlenlogo = document.createElement('img')
 titlenlogo.setAttribute('id', 'titlenlogo')
 titlenlogo.src = 'logo.png'
 document.body.appendChild(titlenlogo)
+const adiv = document.createElement('div')
+adiv.setAttribute('id','adiv')
+adiv.appendChild(titlenlogo)
+document.body.appendChild(adiv)

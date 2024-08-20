@@ -54,6 +54,11 @@ html, body {
 }
 #titlenlogo {
     padding: 16px;
-    align-self: center;
-    justify-self: center;
+    /* align-self: center; */
+    /* justify-self: center; */
+    background-color: brown
+}
+#adiv {
+    height: 50px;
+    background-color: darkgray;
 }
