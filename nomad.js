@@ -28,4 +28,4 @@ document.body.appendChild(mainsection)
 const titlenlogo = document.createElement('img')
 titlenlogo.setAttribute('id', 'titlenlogo')
 titlenlogo.src = 'logo.png'
-nomad.appendChild(titlenlogo)
+document.body.appendChild(titlenlogo)
