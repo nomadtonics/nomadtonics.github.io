@@ -27,6 +27,7 @@ document.body.appendChild(navbar)
 document.body.appendChild(mainsection)
 const titlenlogo = document.createElement('img')
 titlenlogo.setAttribute('id', 'titlenlogo')
+titlenlogo.setAttribute('alt', 'logo and title')
 titlenlogo.src = 'logo.png'
 document.body.appendChild(titlenlogo)
 const adiv = document.createElement('div')
