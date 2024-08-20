@@ -25,7 +25,8 @@ html, body {
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 8px;
 }
 #logo-container {
     background-color: aquamarine;
