@@ -17,6 +17,7 @@ html, body {
     background-color: #abcdef;
     padding: 0 24px;
     line-height: 0px;
+    height: 40px;
 }
 #mainsection {
     padding: 24px;
@@ -37,6 +38,8 @@ html, body {
 }
 #logo-image {
     margin: 8px;
+    height: 100%;
+    width: 100%;
 }
 #nomad {
     background-color: brown;
