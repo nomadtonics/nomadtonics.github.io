@@ -41,8 +41,12 @@ html, body {
 }
 #nomad {
     background-color: brown;
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 #menu-item {
     font-size: larger;
