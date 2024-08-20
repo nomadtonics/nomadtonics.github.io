@@ -7,6 +7,13 @@ html, body {
     background-color: #fff;
     position: fixed;
 }
+#nomad {
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 #navbar {
     display: flex;
     align-items: center;
@@ -39,15 +46,6 @@ html, body {
     width: inherit;
     height: inherit;
 }
-#nomad {
-    background-color: brown;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 #menu-item {
     font-size: larger;
     text-transform: capitalize;
@@ -61,11 +59,4 @@ html, body {
     /* align-self: center; */
     /* justify-self: center; */
     background-color: brown
-}
-#adiv {
-    height: 50px;
-    background-color: darkgray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }

@@ -14,6 +14,17 @@ titlenlogo.addEventListener('click', ()=> {
 logospan.appendChild(titlenlogo)
 nomad.appendChild(logospan)
 nomad.appendChild(titlenlogo)
+const loginform = document.createElement('form')
+loginform.setAttribute('id','loginform')
+loginform.innerHTML = `
+<legend>login</legend>
+<label>username</label>
+<input type='text' id='username' name='username' required>
+<label>password</label>
+<input type='password' id='password' required>
+<input type='submit' value='login' id='loginformbutton>
+<span id='loginformspan'>don't have an account. sign up <a href='#'>here</a></span>`
+nomad.appendChild(loginform)
 // navigation bar for the app
 const navbar = document.createElement('nav')
 // set navigation bar id
