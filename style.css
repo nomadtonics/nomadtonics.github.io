@@ -60,3 +60,9 @@ html, body {
     /* justify-self: center; */
     background-color: brown
 }
+#loginform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
