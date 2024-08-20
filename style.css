@@ -68,3 +68,6 @@ html, body {
     justify-content: center;
     flex-direction: column;
 }
+#logospan {
+    padding: 24px;
+}
