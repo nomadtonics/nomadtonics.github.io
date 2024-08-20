@@ -10,12 +10,12 @@ html, body {
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: sticky;
     z-index: 999;
     gap: 8px;
     background-color: #abcdef;
-    padding: 0 16px;
+    padding: 0 24px;
 }
 #mainsection {
     padding: 24px;
