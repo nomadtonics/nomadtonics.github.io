@@ -23,8 +23,8 @@ mainsection.innerHTML = `
 <span id='small-text'></span>`
 mainsection.setAttribute('id', 'mainsection')
 const mainfooter = document.createElement('footer')
-document.body.appendChild(navbar)
-document.body.appendChild(mainsection)
+nomad.appendChild(navbar)
+nomad.appendChild(mainsection)
 const titlenlogo = document.createElement('img')
 titlenlogo.setAttribute('id', 'titlenlogo')
 titlenlogo.setAttribute('alt', 'logo and title')
@@ -32,8 +32,8 @@ titlenlogo.src = 'logo.png'
 titlenlogo.addEventListener('click', ()=> {
     window.location.href('/noicetom')
 })
-document.body.appendChild(titlenlogo)
+nomad.appendChild(titlenlogo)
 const adiv = document.createElement('div')
 adiv.setAttribute('id','adiv')
 adiv.appendChild(titlenlogo)
-document.body.appendChild(adiv)
+nomad.appendChild(adiv)
