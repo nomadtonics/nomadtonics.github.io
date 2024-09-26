@@ -1,36 +1,37 @@
+/*
 // tab title
-const title = document.querySelector('title')
+const title = document.getElementsByTagName('title')
 title.style.textTransform = 'uppercase'
 // root div of the app
 const nomad = document.getElementById('nomad')
-const logospan = document.createElement('span')
-const titlenlogo = document.createElement('img')
-titlenlogo.setAttribute('id', 'titlenlogo')
-titlenlogo.setAttribute('alt', 'logo and title')
-titlenlogo.src = 'logo.png'
-titlenlogo.addEventListener('click', ()=> {
-    window.location.href('/noicetom')
-})
-logospan.appendChild(titlenlogo)
-nomad.appendChild(logospan)
-nomad.appendChild(titlenlogo)
-const loginform = document.createElement('form')
-loginform.setAttribute('id','loginform')
-loginform.innerHTML = `
-<legend>login</legend>
-<label>username</label>
-<input type='text' id='username' name='username' required>
-<label>password</label>
-<input type='password' id='password' required>
-<input type='submit' value='login' id='loginformbutton>
-<span id='loginformspan'>don't have an account<br/>sign up <a href='#'>here</a></span>`
-nomad.appendChild(loginform)
+//const logospan = document.createElement('span')
+//const titlenlogo = document.createElement('img')
+//titlenlogo.setAttribute('id', 'titlenlogo')
+//titlenlogo.setAttribute('alt', 'logo and title')
+//titlenlogo.src = 'logo.png'
+//titlenlogo.addEventListener('click', ()=> {
+ //   window.location.href('/noicetom')
+//})
+//logospan.appendChild(titlenlogo)
+//nomad.appendChild(logospan)
+//nomad.appendChild(titlenlogo)
+//const loginform = document.createElement('form')
+//loginform.setAttribute('id','loginform')
+//loginform.innerHTML = `
+//<legend>login</legend>
+//<label>username</label>
+//<input type='text' id='username' name='username' required>
+//<label>password</label>
+//<input type='password' id='password' required>
+//<input type='submit' value='login' id='loginformbutton>
+//<span id='loginformspan'>don't have an account<br/>sign up <a href='#'>here</a></span>`
+//nomad.appendChild(loginform)
 // navigation bar for the app
-const navbar = document.createElement('nav')
+//const navbar = document.createElement('nav')
 // set navigation bar id
-navbar.setAttribute('id', 'navbar')
+//navbar.setAttribute('id', 'navbar')
 // content to be displayed
-navbar.innerHTML = `
+//navbar.innerHTML = `
 <ul id='logo-container'>
 <li id='logo-container'><img src='./logo.png' alt='no mad logo' id='logo-image'></li>
 </ul>
@@ -47,3 +48,15 @@ mainsection.setAttribute('id', 'mainsection')
 const mainfooter = document.createElement('footer')
 nomad.appendChild(navbar)
 nomad.appendChild(mainsection)
+*/
+
+const nomad = document.getElementById('nomad')
+nomad.setAttribute('id', 'nomad')
+const headingtext = document.createElement('h1')
+headingtext.setAttribute('id', 'nomad-headingtext')
+headingtext.innerText = 'guess the number'
+nomad.appendChild(headingtext)
+const theuserguess = document.createElement('input')
+theuserguess.setAttribute('id', 'theuserguess')
+theuserguess.setAttribute('placeholder', '0')
+nomad.appendChild(theuserguess)
