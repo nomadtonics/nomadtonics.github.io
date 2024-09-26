@@ -92,8 +92,8 @@ function checkGuess() {
     }
 }
 
-document.getElementById("submitGuess").addEventListener("click", checkGuess);
-document.getElementById("restart").addEventListener("click", startGame);
+nomadsubmit.addEventListener("click", checkGuess);
+nomadrestart.addEventListener("click", startGame);
 
 // Start the game when the page loads
 window.onload = startGame;
