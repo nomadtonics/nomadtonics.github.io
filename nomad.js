@@ -60,3 +60,37 @@ const theuserguess = document.createElement('input')
 theuserguess.setAttribute('id', 'theuserguess')
 theuserguess.setAttribute('placeholder', '0')
 nomad.appendChild(theuserguess)
+
+
+let randomNumber;
+let attempts = 0;
+
+function startGame() {
+    randomNumber = Math.floor(Math.random() * 100) + 1; // Generate a random number between 1 and 100
+    attempts = 0;
+    document.getElementById("result").textContent = "";
+    document.getElementById("guess").value = "";
+    document.getElementById("restart").style.display = "none";
+}
+
+function checkGuess() {
+    const guess = Number(document.getElementById("guess").value);
+    attempts++;
+
+    if (guess < 1 || guess > 100) {
+        document.getElementById("result").textContent = "Please enter a number between 1 and 100.";
+    } else if (guess < randomNumber) {
+        document.getElementById("result").textContent = "Too low! Try again.";
+    } else if (guess > randomNumber) {
+        document.getElementById("result").textContent = "Too high! Try again.";
+    } else {
+        document.getElementById("result").textContent = `Congratulations! You've guessed the number ${randomNumber} in ${attempts} attempts!`;
+        document.getElementById("restart").style.display = "inline";
+    }
+}
+
+document.getElementById("submitGuess").addEventListener("click", checkGuess);
+document.getElementById("restart").addEventListener("click", startGame);
+
+// Start the game when the page loads
+window.onload = startGame;
