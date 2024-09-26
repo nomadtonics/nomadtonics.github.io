@@ -11,7 +11,12 @@ nomadguess.setAttribute('type', 'number')
 nomadguess.setAttribute('id', 'guess')
 const nomadrestart = document.createElement('button')
 const nomadsubmit = document.createElement('button')
-nomadsubmit.setAttribute('id', 'sbumitGuess')
+nomadsubmit.setAttribute('id', 'submitGuess')
+
+nomad.appendChild(nomadguess)
+nomad.appendChild(nomadsubmit)
+nomad.appendChild(nomadresult)
+nomad.appendChild(nomadrestart)
 
 let randomNumber;
 let attempts = 0;
