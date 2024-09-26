@@ -71,3 +71,18 @@ html, body {
 #logospan {
     padding: 24px;
 }
+#nomad-headingtext {
+	font-size: 2.6rem;
+	padding: 0.8rem;
+}
+#theuserguess {
+	width: 100%;
+	text-align: center;
+	font-size: 2.6rem;
+	background-color: transparent;
+	color: #abcdef;
+	border-color: transparent;
+}
+#theuserguess: hover {
+	border-color: transparent;
+}
