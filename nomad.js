@@ -57,7 +57,7 @@ nomadheading.setAttribute('id', 'nomad-heading')
 nomadheading.textContent = 'guess the number'
 nomad.appendChild(nomadheading)
 const nomadresult = document.createElement('p')
-nomadresult.setAtrribute('id', 'result')
+nomadresult.setAttribute('id', 'result')
 const nomadguess = document.createElement('input')
 nomadguess.setAttribut('type', 'number')
 nomadguess.setAttribut('id', 'guess')
