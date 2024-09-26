@@ -52,15 +52,18 @@ nomad.appendChild(mainsection)
 
 const nomad = document.getElementById('nomad')
 nomad.setAttribute('id', 'nomad')
-const headingtext = document.createElement('h1')
-headingtext.setAttribute('id', 'nomad-headingtext')
-headingtext.innerText = 'guess the number'
-nomad.appendChild(headingtext)
-const theuserguess = document.createElement('input')
-theuserguess.setAttribute('id', 'theuserguess')
-theuserguess.setAttribute('placeholder', '0')
-nomad.appendChild(theuserguess)
-
+const nomadheading = document.createElement('h1')
+nomadheading.setAttribute('id', 'nomad-heading')
+nomadheading.textContent = 'guess the number'
+nomad.appendChild(nomadheading)
+const nomadresult = document.createElement('p')
+nomadresult.setAtrribute('id', 'result')
+const nomadguess = document.createElement('input')
+nomadguess.setAttribut('type', 'number')
+nomadguess.setAttribut('id', 'guess')
+const nomadrestart = document.createElement('button')
+const nomadsubmit = document.createElement('button')
+nomadsubmit.setAttribute('id', 'sbumitGuess')
 
 let randomNumber;
 let attempts = 0;
@@ -68,24 +71,24 @@ let attempts = 0;
 function startGame() {
     randomNumber = Math.floor(Math.random() * 100) + 1; // Generate a random number between 1 and 100
     attempts = 0;
-    document.getElementById("result").textContent = "";
-    document.getElementById("guess").value = "";
-    document.getElementById("restart").style.display = "none";
+    nomadresult.textContent = "";
+    nomadguess.value = "";
+    nomadrestart.style.display = "none";
 }
 
 function checkGuess() {
-    const guess = Number(document.getElementById("guess").value);
+    const guess = Number(nomadguess.value);
     attempts++;
 
     if (guess < 1 || guess > 100) {
-        document.getElementById("result").textContent = "Please enter a number between 1 and 100.";
+        nomadresult.textContent = "Please enter a number between 1 and 100.";
     } else if (guess < randomNumber) {
-        document.getElementById("result").textContent = "Too low! Try again.";
+        nomadresult.textContent = "Too low! Try again.";
     } else if (guess > randomNumber) {
-        document.getElementById("result").textContent = "Too high! Try again.";
+        nomadresult.textContent = "Too high! Try again.";
     } else {
-        document.getElementById("result").textContent = `Congratulations! You've guessed the number ${randomNumber} in ${attempts} attempts!`;
-        document.getElementById("restart").style.display = "inline";
+        nomadresult.textContent = `Congratulations! You've guessed the number ${randomNumber} in ${attempts} attempts!`;
+        nomadrestart.style.display = "inline";
     }
 }
 
