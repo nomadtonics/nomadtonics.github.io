@@ -50,3 +50,7 @@ nomadrestart.addEventListener("click", startGame);
 
 // Start the game when the page loads
 window.onload = startGame;
+
+
+import popeye from popeye
+popeye()
