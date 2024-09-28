@@ -1,3 +1,3 @@
-export function popeye() {
+export function ellow() {
   console.log('ello world')
 }
