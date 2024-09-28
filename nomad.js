@@ -52,5 +52,5 @@ nomadrestart.addEventListener("click", startGame);
 window.onload = startGame;
 
 
-import popeye from popeye
+import ellow from popeye
 popeye()
