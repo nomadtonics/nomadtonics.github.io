@@ -1,3 +1,3 @@
-export function ellow() {
+export default function ellow() {
   console.log('ello world')
 }
