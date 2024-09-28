@@ -52,5 +52,5 @@ nomadrestart.addEventListener("click", startGame);
 window.onload = startGame;
 
 
-import ellow from 'popeye.js'
+import ellow from './popeye.js'
 ellow()
