@@ -8,4 +8,4 @@ landingPage.addEventListener('load', () => {
 })
 
 
-body.appendChild(landingPage)
+//body.appendChild(landingPage)
