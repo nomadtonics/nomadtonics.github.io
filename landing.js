@@ -1,11 +1,8 @@
 // landing page
-const landingPage = document.createElement('main')
+const landingPage = document.getElementById('landing-main');
 
 
 landingPage.addEventListener('load', () => {
-  this.style.backgroundColor = '#23262980';
-  this.style.color = '#232629';
+  console.log(`landing page 🎉🍾🥂!!`);
 })
 
-
-//body.appendChild(landingPage)
