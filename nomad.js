@@ -1,5 +1,10 @@
 const nomad = document.getElementById('nomad');
 nomad.setAttribute('id', 'nomad');
+const nomadsection = document.createElement('section');
+nomadsection.setAttribute('id', 'nomad-section');
+nomadsection.style.backgroundColor = 'transparent';
+nomadsection.style.letterSpacing = '8rem';
+
 const nomadheading = document.createElement('h1');
 nomadheading.setAttribute('id', 'nomad-heading');
 nomadheading.textContent = 'no mad';
@@ -7,7 +12,8 @@ nomadheading.style.textTransform = 'uppercase';
 nomadheading.style.fontSize = '26px';
 nomadheading.style.height = '92px';
 //nomadheading.style.
-nomad.appendChild(nomadheading);
+nomadsection.appendChild(nomadheading);
+nomad.appendChild(nomadsection);
 // const nomadresult = document.createElement('p')
 // nomadresult.setAttribute('id', 'result')
 // const nomadguess = document.createElement('input')
