@@ -7,9 +7,9 @@ document.body.appendChild(justnomad)
 const aBouncingBall = document.createElement('div')
 aBouncingBall.textContent = 'no mad'.toUpperCase();
 aBouncingBall.style.fontSize = '678%';
-// aBouncingBall.style.height = '100px';
-// aBouncingBall.style.width = '100px';
-aBouncingBall.style.borderRadius = '50%';
+aBouncingBall.style.height = '250px';
+aBouncingBall.style.width = '250px';
+aBouncingBall.style.borderRadius = '25% 50% 75% 25%';
 aBouncingBall.style.backgroundColor = '#2611af';
 document.body.appendChild(aBouncingBall);
 document.addEventListener('DOMContentLoaded', () => {
