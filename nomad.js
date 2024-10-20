@@ -9,6 +9,7 @@ aBouncingBall.textContent = 'no mad'.toUpperCase();
 aBouncingBall.style.fontSize = '678%';
 aBouncingBall.style.height = '250px';
 aBouncingBall.style.color = '#00192892';
+aBouncingBall.style.alignSelf = 'right';
 aBouncingBall.style.width = '250px';
 aBouncingBall.style.borderRadius = '25% 50% 75% 25%';
 aBouncingBall.style.backgroundColor = '#2611af';
