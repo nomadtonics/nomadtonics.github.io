@@ -23,3 +23,26 @@ nomadheadingone.style.textAlign = 'center';
 nomadsectione.appendChild(nomadheadingone);
 // append heading to main element
 nomad.appendChild(nomadsectione);
+
+const loginsection = document.createElement('section')
+
+const loginform = document.createElement('form')
+loginform.setAttribute('id', 'landing-login-form')
+
+const loginlegend = document.createElement('legend')
+
+const loginput = document.createElement('input')
+loginput.setAttribute('type', 'text')
+
+const passinput = document.createElement('input')
+passinput.setAttribute('type', 'password')
+
+const loginbtn = document.createElement('button')
+loginbtn.setAttribute('type', 'submit')
+
+loginform.appendChild(loginlegend)
+loginform.appendChild(loginput)
+loginform.appendChild(passinput)
+loginform.appendChild(loginbtn)
+loginsection.appendChild(loginform)
+nomad.appendChild(loginsection)
