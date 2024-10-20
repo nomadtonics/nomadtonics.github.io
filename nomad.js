@@ -9,6 +9,7 @@ aBouncingBall.style.height = '100px';
 aBouncingBall.style.width = '100px';
 aBouncingBall.style.borderRadius = '50%';
 aBouncingBall.style.backgroundColor = '#2611af';
+document.body.appendChild(aBouncingBall);
 // landing main page
 const nomad = document.getElementById('landing-main');
 // set attribute to style landing page
