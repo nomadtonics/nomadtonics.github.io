@@ -6,6 +6,7 @@ nomadhtml.forEach((params)=> {
   params.style.width = '100vw';
   params.style.height = '100vh';
   params.style.alignContent = 'center';
+  params.style.justifyContent = 'center';
 })
 const nomadbody = document.querySelectorAll('body');
 nomadbody.forEach((params)=> {
@@ -14,7 +15,5 @@ nomadbody.forEach((params)=> {
   params.style.maxWidth = '100vw';
   params.style.maxHeight = '100vh';
   params.style.alignContent = 'center';
+  params.style.justifyContent = 'center';
 })
-// const nomadheadingone = document.querySelectorAll('h1');
-// nomadheadingone.style.fontSize = '8rem';
-// nomadheadingone.style.border = 0;
