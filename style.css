@@ -14,16 +14,15 @@ html, body {
 	height: 100vh;
 	overflow: hidden;
 }
-#nomad {
+#landing-main {
 	background-color: #001928;
 }
-input {
-	max-width: 250;
-	background-color: transparent;
-	max-height: 126;
+#landing-section {
+	max-width: 400px;
+	max-height: 250px;
 }
-button {
-	max-width: 250;
-	max-height: 126;
-	context: '';
+#landing-h1 {
+	text-transform: uppercase;
+	letter-spacing: 1.8em;
+	font-size: 300%;
 }
