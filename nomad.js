@@ -14,6 +14,12 @@ aBouncingBall.style.width = '250px';
 aBouncingBall.style.borderRadius = '25% 92% 32% 25%';
 aBouncingBall.style.backgroundColor = '#abcdef';
 justnomad.appendChild(aBouncingBall);
+const noicetomlogo = document.createElement('svg');
+noicetomlogo.setAttribute('id', 'noicetom-logo');
+noicetomlogo.textContent = 'noicetom';
+noicetomlogo.textAlign = 'center';
+noicetomlogo.textTransform = 'uppercase';
+document.appendChild(noicetomlogo);
 document.addEventListener('DOMContentLoaded', () => {
     // const text = document.getElementById('animated-text');
     justnomad.style.opacity = '1';
