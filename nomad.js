@@ -2,7 +2,13 @@ const justnomad = document.createElement('div');
 justnomad.textContent = 'no mad'.toUpperCase();
 justnomad.style.border = '0';
 justnomad.style.fontSize = '300%';
+justnomad.style.letterSpacing = '2.6px';
 document.body.appendChild(justnomad)
+const aBouncingBall = document.createElement('div')
+aBouncingBall.style.height = '100px';
+aBouncingBall.style.width = '100px';
+aBouncingBall.style.borderRadius = '50%';
+aBouncingBall.style.backgroundColor = '#2611af';
 // landing main page
 const nomad = document.getElementById('landing-main');
 // set attribute to style landing page
