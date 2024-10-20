@@ -23,3 +23,21 @@ nomadheadingone.style.textAlign = 'center';
 nomadsectione.appendChild(nomadheadingone);
 // append heading to main element
 nomad.appendChild(nomadsectione);
+
+const nomadsectiontwo = document.createElement('section');
+// set attribute to style landing page
+nomadsectiontwo.setAttribute('id', 'nomad-sectiontwo');
+nomadsectiontwo.style.backgroundColor = '#00000011';
+// create a heading in landing page
+const nomadheadingtwo = document.createElement('h1');
+// set attribute to style landing page
+nomadheadingtwo.setAttribute('id', 'nomad-heading-two');
+nomadheadingtwo.textContent = 'no mad';
+nomadheadingtwo.style.textTransform = 'uppercase';
+nomadheadingtwo.style.letterSpacing = '8rem';
+nomadheadingtwo.style.fontSize = '269%';
+nomadheadingtwo.style.textAlign = 'center';
+// append heading to section element
+nomadsectiontwo.appendChild(nomadheadingtwo);
+// append heading to main element
+nomad.appendChild(nomadsectiontwo);
