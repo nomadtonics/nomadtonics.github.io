@@ -11,7 +11,7 @@ aBouncingBall.style.height = '250px';
 aBouncingBall.style.color = '#001928';
 aBouncingBall.style.alignSelf = 'right';
 aBouncingBall.style.width = '250px';
-aBouncingBall.style.borderRadius = '25% 83% 36% 25%';
+aBouncingBall.style.borderRadius = '25% 92% 32% 25%';
 aBouncingBall.style.backgroundColor = '#2611af';
 document.body.appendChild(aBouncingBall);
 document.addEventListener('DOMContentLoaded', () => {
