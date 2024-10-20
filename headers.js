@@ -16,5 +16,5 @@ nomadbody.forEach((params)=> {
   params.style.alignContent = 'center';
 })
 const nomadheadingone = document.querySelectorAll('h1');
-nomadheadingone.style.fontSize = '269%';
+nomadheadingone.style.fontSize = '8rem';
 nomadheadingone.style.border = 0;
