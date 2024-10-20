@@ -12,13 +12,13 @@ const nomadsectione = document.createElement('section');
 // set attribute to style landing page
 nomadsectione.setAttribute('id', 'nomad-sectione');
 nomadsectione.style.backgroundColor = 'transparent';
-nomadsectione.style.letterSpacing = '8rem';
 // create a heading in landing page
 const nomadheadingone = document.createElement('h1');
 // set attribute to style landing page
 nomadheadingone.setAttribute('id', 'nomad-heading-one');
 nomadheadingone.textContent = 'no mad';
 nomadheadingone.style.textTransform = 'uppercase';
+nomadheadingone.style.letterSpacing = '8rem';
 nomadheadingone.style.fontSize = '269%';
 // append heading to section element
 nomadsectione.appendChild(nomadheadingone);
