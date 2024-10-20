@@ -1,5 +1,6 @@
 const justnomad = document.createElement('div');
 justnomad.textContent = 'no mad'.toUpperCase();
+justnomad.style.color = '#00192892';
 justnomad.style.border = '0';
 justnomad.style.fontSize = '300%';
 justnomad.style.letterSpacing = '2.6px';
