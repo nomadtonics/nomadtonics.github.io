@@ -9,7 +9,7 @@ nomad.style.color = '00261192';
 const nomadsectione = document.createElement('section');
 // set attribute to style landing page
 nomadsectione.setAttribute('id', 'nomad-sectione');
-nomadsectione.style.backgroundColor = '#00000011';
+nomadsectione.style.backgroundColor = '#08080811';
 // create a heading in landing page
 const nomadheadingone = document.createElement('h1');
 // set attribute to style landing page
@@ -23,21 +23,3 @@ nomadheadingone.style.textAlign = 'center';
 nomadsectione.appendChild(nomadheadingone);
 // append heading to main element
 nomad.appendChild(nomadsectione);
-
-const nomadsectiontwo = document.createElement('section');
-// set attribute to style landing page
-nomadsectiontwo.setAttribute('id', 'nomad-sectiontwo');
-nomadsectiontwo.style.backgroundColor = '#00000011';
-// create a heading in landing page
-const nomadheadingtwo = document.createElement('h1');
-// set attribute to style landing page
-nomadheadingtwo.setAttribute('id', 'nomad-heading-two');
-nomadheadingtwo.textContent = 'no mad';
-nomadheadingtwo.style.textTransform = 'uppercase';
-nomadheadingtwo.style.letterSpacing = '2.6em';
-nomadheadingtwo.style.fontSize = '269%';
-nomadheadingtwo.style.textAlign = 'center';
-// append heading to section element
-nomadsectiontwo.appendChild(nomadheadingtwo);
-// append heading to main element
-nomad.appendChild(nomadsectiontwo);
