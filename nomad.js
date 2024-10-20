@@ -5,6 +5,8 @@ justnomad.style.fontSize = '300%';
 justnomad.style.letterSpacing = '2.6px';
 document.body.appendChild(justnomad)
 const aBouncingBall = document.createElement('div')
+aBouncingBall.textContent = 'no mad'.toUpperCase;
+aBouncingBall.style.fontSize = '678%';
 aBouncingBall.style.height = '100px';
 aBouncingBall.style.width = '100px';
 aBouncingBall.style.borderRadius = '50%';
