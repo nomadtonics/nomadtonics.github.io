@@ -16,8 +16,8 @@ const nomadheadingone = document.createElement('h1');
 nomadheadingone.setAttribute('id', 'nomad-heading-one');
 nomadheadingone.textContent = 'no mad';
 nomadheadingone.style.textTransform = 'uppercase';
-nomadheadingone.style.letterSpacing = '2.6em';
-nomadheadingone.style.fontSize = '269%';
+// nomadheadingone.style.letterSpacing = '2.6em';
+// nomadheadingone.style.fontSize = '269%';
 nomadheadingone.style.textAlign = 'center';
 // append heading to section element
 nomadsectione.appendChild(nomadheadingone);
