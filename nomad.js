@@ -13,7 +13,7 @@ aBouncingBall.style.alignSelf = 'right';
 aBouncingBall.style.width = '250px';
 aBouncingBall.style.borderRadius = '25% 92% 32% 25%';
 aBouncingBall.style.backgroundColor = '#abcdef';
-document.body.appendChild(aBouncingBall);
+justnomad.appendChild(aBouncingBall);
 document.addEventListener('DOMContentLoaded', () => {
     // const text = document.getElementById('animated-text');
     justnomad.style.opacity = '1';
