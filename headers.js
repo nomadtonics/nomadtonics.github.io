@@ -15,6 +15,6 @@ nomadbody.forEach((params)=> {
   params.style.maxHeight = '100vh';
   params.style.alignContent = 'center';
 })
-const nomadheadingone = document.querySelectorAll('h1');
-nomadheadingone.style.fontSize = '8rem';
-nomadheadingone.style.border = 0;
+// const nomadheadingone = document.querySelectorAll('h1');
+// nomadheadingone.style.fontSize = '8rem';
+// nomadheadingone.style.border = 0;
