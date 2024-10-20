@@ -1,5 +1,5 @@
 // landing page
-const nomadhtml = document.querySelectorAll('html')
+const nomadhtml = document.querySelectorAll('html');
 nomadhtml.forEach((params)=> {
   params.style.backgroundColor = '#001928';
   params.style.color = 'abcdef';
@@ -7,7 +7,7 @@ nomadhtml.forEach((params)=> {
   params.style.maxHeight = '100vh';
   params.style.alignContent = 'center';
 })
-const nomadbody = document.querySelectorAll('body')
+const nomadbody = document.querySelectorAll('body');
 nomadbody.forEach((params)=> {
   params.style.backgroundColor = '#001928';
   params.style.color = 'abcdef';
@@ -15,3 +15,6 @@ nomadbody.forEach((params)=> {
   params.style.maxHeight = '100vh';
   params.style.alignContent = 'center';
 })
+const nomadheadingone = document.querySelectorAll('h1');
+nomadheadingone.style.fontSize = '269%';
+nomadheadingone.style.border = 0;
