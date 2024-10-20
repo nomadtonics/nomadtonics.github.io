@@ -2,6 +2,11 @@
 const nomad = document.getElementById('landing-main');
 // set attribute to style landing page
 nomad.setAttribute('id', 'landing-main');
+nomad.style.maxWidth = '100vw';
+nomad.style.maxHeight = '100vh';
+nomad.style.backgroundColor = '#00261192';
+nomad.style.color = '#af000026';
+
 // create a section in landing page
 const nomadsectione = document.createElement('section');
 // set attribute to style landing page
