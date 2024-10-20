@@ -1,3 +1,8 @@
+const justnomad = document.createElement('div');
+justnomad.textContent = 'no mad'.toUpperCase();
+justnomad.style.border = '0';
+justnomad.style.fontSize = '300%';
+document.body.appendChild(justnomad)
 // landing main page
 const nomad = document.getElementById('landing-main');
 // set attribute to style landing page
