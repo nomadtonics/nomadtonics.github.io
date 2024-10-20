@@ -18,6 +18,7 @@ nomadheadingone.textContent = 'no mad';
 nomadheadingone.style.textTransform = 'uppercase';
 nomadheadingone.style.letterSpacing = '8rem';
 nomadheadingone.style.fontSize = '269%';
+nomadheadingone.style.textAlign = 'center';
 // append heading to section element
 nomadsectione.appendChild(nomadheadingone);
 // append heading to main element
