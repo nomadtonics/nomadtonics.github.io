@@ -6,7 +6,7 @@ justnomad.style.letterSpacing = '2.6px';
 document.body.appendChild(justnomad)
 const aBouncingBall = document.createElement('div')
 aBouncingBall.textContent = 'no mad'.toUpperCase();
-aBouncingBall.style.fontSize = '2.6em';
+aBouncingBall.style.fontSize = '100%';
 aBouncingBall.style.height = '250px';
 aBouncingBall.style.color = '#001928';
 aBouncingBall.style.alignSelf = 'right';
@@ -16,7 +16,8 @@ aBouncingBall.style.backgroundColor = '#abcdef';
 justnomad.appendChild(aBouncingBall);
 const noicetomlogo = document.createElement('svg');
 noicetomlogo.setAttribute('id', 'noicetom-logo');
-noicetomlogo.textContent = 'noicetom';
+noicetomlogo.textContent = 'noicetom'.toUpperCase();
+noicetomlogo.innerHTML = noicetomlogo.textContent;
 noicetomlogo.textAlign = 'center';
 noicetomlogo.textTransform = 'uppercase';
 document.body.appendChild(noicetomlogo);
