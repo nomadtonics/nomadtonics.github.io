@@ -10,6 +10,11 @@ aBouncingBall.style.width = '100px';
 aBouncingBall.style.borderRadius = '50%';
 aBouncingBall.style.backgroundColor = '#2611af';
 document.body.appendChild(aBouncingBall);
+document.addEventListener('DOMContentLoaded', () => {
+    // const text = document.getElementById('animated-text');
+    justnomad.style.opacity = '1';
+    justnomad.style.transform = 'translateY(0)';
+});
 // landing main page
 const nomad = document.getElementById('landing-main');
 // set attribute to style landing page
