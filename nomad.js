@@ -19,7 +19,7 @@ noicetomlogo.setAttribute('id', 'noicetom-logo');
 noicetomlogo.textContent = 'noicetom';
 noicetomlogo.textAlign = 'center';
 noicetomlogo.textTransform = 'uppercase';
-document.appendChild(noicetomlogo);
+document.body.appendChild(noicetomlogo);
 document.addEventListener('DOMContentLoaded', () => {
     // const text = document.getElementById('animated-text');
     justnomad.style.opacity = '1';
