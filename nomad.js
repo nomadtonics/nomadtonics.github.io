@@ -1,5 +1,5 @@
-const nomad = document.getElementById('nomad');
-nomad.setAttribute('id', 'nomad');
+const nomad = document.getElementById('landing-main');
+nomad.setAttribute('id', 'landing-main');
 const nomadsection = document.createElement('section');
 nomadsection.setAttribute('id', 'nomad-section');
 nomadsection.style.backgroundColor = 'transparent';
