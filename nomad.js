@@ -9,7 +9,7 @@ nomad.style.color = '00261192';
 const nomadsectione = document.createElement('section');
 // set attribute to style landing page
 nomadsectione.setAttribute('id', 'nomad-sectione');
-nomadsectione.style.backgroundColor = '#08080811';
+nomadsectione.style.backgroundColor = '#08080845';
 // create a heading in landing page
 const nomadheadingone = document.createElement('h1');
 // set attribute to style landing page
