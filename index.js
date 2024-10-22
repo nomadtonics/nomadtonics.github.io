@@ -36,9 +36,9 @@ nomadheading.style.textShadow = '0 0 0.26em #929500';
 nomadheading.style.color = '#929500';
 nomadheading.style.background = 'transparent';
 nomadheading.style.padding = '8%';
-nomadheading.style.textAlign = 'center';
+nomadheading.style.textAlign = 'right';
 nomadheading.style.boxShadow = 'inset 0 0 0.26em 0 #929500';
-nomadheading.style.borderRadius = '0.26em 2.6em 0.26em 0.11em';
+nomadheading.style.borderRadius = '2.6em 0.26em 0.11em 0.26em';
 // append children to the body
 document.body.onload = function() {
     document.body.appendChild(nmmain);
