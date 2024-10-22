@@ -23,6 +23,11 @@ const landingSection = document.createElement('section');
 landingSection.textContent = 'welcome to nomadtonics!';
 //landingSection.setAttribute('width', 'inherit');
 // landingSection.style.
+const nomadtitle = document.querySelector('title');
+nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
+
+const nomadheading = document.createElement('h1');
+nomadheading.textContent = nomadtitle.textContent;
 
 // append children to the body
 document.body.onload = function() {
