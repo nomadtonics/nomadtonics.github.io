@@ -1,17 +1,17 @@
 import nomadtemplate from './nomad.js';
 
 // create element variables
-const nomadrootdoc = document.documentElement;
+//const nomadrootdoc = document.documentElement;
 const nomadhtml = document.querySelector('html');
-const nomadhead = document.querySelector('head');
+//const nomadhead = document.querySelector('head');
 const nomadtitle = document.querySelector('title');
 const nomadbody = document.querySelector('body');
 
 // bg style static elements
-nomadrootdoc.style.backgroundColor = '#000';
-nomadrootdoc.style.color = '#fff';
-nomadrootdoc.style.width = window.screen.availWidth;
-nomadrootdoc.style.height = window.screen.availHeight;
+//nomadrootdoc.style.backgroundColor = '#000';
+//nomadrootdoc.style.color = '#fff';
+//nomadrootdoc.style.width = window.screen.availWidth;
+//nomadrootdoc.style.height = window.screen.availHeight;
 // nomadrootdoc.style.width = '50%';
 // nomadrootdoc.style.height = '50%';
 
@@ -70,3 +70,15 @@ nomadbody.onload = function() {
 nomadbody.onmouseover = function() {
     nomadbody.style.backgroundColor = '#002611';
 }
+
+
+const logindiv = nomadtemplate('div');
+logindiv.textContent = "login";
+logindiv.style.textTransform = "capitalize";
+nomadbody.appendChild(logindiv);
+
+const usernameinput = nomadtemplate("input");
+usernameinput.style.background = "transparent";
+usernameinput.style.border = "none";
+usernameinput.style.cursor = "_";
+logindiv.appendChild(usernameinput);
