@@ -8,38 +8,20 @@ const nomadbody = document.querySelector('body');
 // bg style static elements
 nomadrootdoc.style.backgroundColor = '#11269287';
 nomadrootdoc.style.color = '#29049578';
-nomadrootdoc.style.width = '100vw';
-if (window.screen.availWidth !== nomadrootdoc.style.width) {
-    nomadrootdoc.style.width = window.screen.availWidth;
-}
-if (window.screen.availHeight !== nomadrootdoc.style.height) {
-    nomadrootdoc.style.height = window.screen.availHeight;
-    nomadrootdoc.style.height = '100vh';
-}
+nomadrootdoc.style.width = window.screen.availWidth;
+nomadrootdoc.style.height = window.screen.availHeight;
 
 nomadhtml.style.backgroundColor = '#11269287';
 nomadhtml.style.color = '#29049578';
-nomadhtml.style.width = '100vw';
-if (window.screen.availWidth !== nomadhtml.style.width) {
-    nomadhtml.style.width = window.screen.availWidth;
-}
-if (window.screen.availHeight !== nomadhtml.style.height) {
-    nomadhtml.style.height = window.screen.availHeight;
-    nomadhtml.style.height = '100vh';
-}
+nomadhtml.style.width = window.screen.availWidth;
+nomadhtml.style.height = window.screen.availHeight;
 
 nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
 
 nomadbody.style.backgroundColor = '#11269287';
 nomadbody.style.color = '#29049578';
-nomadbody.style.width = '100vw';
-if (window.screen.availWidth !== nomadbody.style.width) {
-    nomadbody.style.width = window.screen.availWidth;
-}
-if (window.screen.availHeight !== nomadbody.style.height) {
-    nomadbody.style.height = window.screen.availHeight;
-    nomadbody.style.height = '100vh';
-}
+nomadbody.style.width = window.screen.availWidth;
+nomadbody.style.height = window.screen.availHeight;
 
 // create main element
 const nmmain = document.createElement('main');
