@@ -1,9 +1,25 @@
+// create element variables
+const nomadrootdoc = document.documentElement;
+const nomadhtml = document.querySelector('html');
+const nomadhead = document.querySelector('head');
 const nomadtitle = document.querySelector('title');
-nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
+const nomadbody = document.querySelector('body');
 
-if (window.screen.availWidth === '430px') {
-    console.log('logging is working');
+// bg style static elements
+for (let nomadelement in (nomadrootdoc, nomadhtml, nomadbody)) {
+    nomadelement.style.backgroundColor = '#11269287';
+    nomadelement.style.color = '#29049578';
+    nomadelement.style.width = '100vw';
+    if (window.screen.availWidth !== nomadelement.style.width) {
+        nomadelement.style.width = window.screen.availWidth;
+    }
 }
+
+nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
+nomadtitle.style.letterSpacing = '2%';
+document.documentElement.style.backgroundColor = '#002611';
+
+
 
 
 
@@ -13,7 +29,6 @@ document.body.style.minWidth = window.screen.availWidth;
 document.body.style.maxHeight = window.screen.availHeight;
 document.body.style.height = window.screen.availHeight;
 document.body.style.minHeight = window.screen.availHeight;
-document.body.style.backgroundColor = '#002611';
 
 // create main element
 const nmmain = document.createElement('main');
