@@ -45,7 +45,6 @@ nomadheading.style.letterSpacing = '0.092em';
 // append children to the body
 document.body.onload = function() {
     document.body.appendChild(nmmain);
-    document.body.appendChild(nomadtitle);
     nmmain.appendChild(landingSection);
     landingSection.appendChild(nomadheading)
 
