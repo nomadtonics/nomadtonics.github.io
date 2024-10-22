@@ -14,6 +14,7 @@ const nmmain = document.createElement('main');
 //nmmain.style.justifySelf = 'center';
 //nmmain.style.alignContent = 'center';
 //nmmain.style.justifyContent = 'center';
+nmmain.style.position = 'relative';
 nmmain.style.maxWidth = 'inherit';
 nmmain.style.width = 'inherit';
 nmmain.style.minWidth = 'inherit';
