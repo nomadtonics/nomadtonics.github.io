@@ -19,6 +19,6 @@ landingSection.textContent = 'welcome to nomadtonics!';
 // append children to the body
 document.body.onload = function() {
     document.body.appendChild(nmmain);
-    document.body.appendChild(landingSection);
+    nmmain.appendChild(landingSection);
 
 }
