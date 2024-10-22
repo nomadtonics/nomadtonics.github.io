@@ -1,6 +1,12 @@
 const nomadtitle = document.querySelector('title');
 nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
 
+if window.screen.availWidth === '430px' {
+    console.log('logging is working');
+}
+
+
+
 document.body.style.maxWidth = window.screen.availWidth;
 document.body.style.width = window.screen.availWidth;
 document.body.style.minWidth = window.screen.availWidth;
