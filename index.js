@@ -24,22 +24,22 @@ nomadbody.style.width = window.screen.availWidth;
 nomadbody.style.height = window.screen.availHeight;
 
 // create main element
-const nmmain = document.createElement('main');
-nmmain.style.position = 'relative';
-nmmain.style.width = 'inherit';
-nmmain.style.height = 'inherit';
+const nomadmain = document.createElement('main');
+nomadmain.style.position = 'relative';
+nomadmain.style.width = 'inherit';
+nomadmain.style.height = 'inherit';
 
 // create a div element to display 
-const landingSection = document.createElement('section');
-landingSection.style.position = 'absolute';
-landingSection.style.top = '8%';
-landingSection.style.left = '8%';
-landingSection.style.alignSelf = 'center';
-landingSection.style.alignContent = 'center';
-landingSection.style.alignItems = 'center';
-landingSection.style.justifySelf = 'center';
-landingSection.style.justifyContent = 'center';
-landingSection.style.justifyItems = 'center';
+const sectionone = document.createElement('section');
+sectionone.style.position = 'absolute';
+sectionone.style.top = '8%';
+sectionone.style.left = '8%';
+sectionone.style.alignSelf = 'center';
+sectionone.style.alignContent = 'center';
+sectionone.style.alignItems = 'center';
+sectionone.style.justifySelf = 'center';
+sectionone.style.justifyContent = 'center';
+sectionone.style.justifyItems = 'center';
 
 // heading to display
 const nomadheading = document.createElement('h1');
@@ -57,11 +57,11 @@ nomadheading.style.letterSpacing = '0.092em';
 
 // append children to the body
 nomadbody.onload = function() {
-    nomadbody.appendChild(nmmain);
-    nmmain.onload = function(){
-        nmmain.appendChild(landingSection);
-        landingSection.onload = function() {
-            landingSection.appendChild(nomadheading);
+    nomadbody.appendChild(nomadmain);
+    nomadmain.onload = function(){
+        nomadmain.appendChild(sectionone);
+        sectionone.onload = function() {
+            sectionone.appendChild(nomadheading);
         }
     }
 }
