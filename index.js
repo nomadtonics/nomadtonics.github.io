@@ -6,4 +6,4 @@ nmmain.style.minWidth = window.screen.availWidth;
 nmmain.style.maxHeight = window.screen.availHeight;
 nmmain.style.height = window.screen.availHeight;
 nmmain.style.minHeight = window.screen.availHeight;
-document.documentElement.appendChild(nmmain);
+document.body.appendChild(nmmain);
