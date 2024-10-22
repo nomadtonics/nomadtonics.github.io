@@ -53,6 +53,9 @@ nmmain.style.minHeight = 'inherit';
 
 // create a div element to display 
 const landingSection = document.createElement('section');
+landingSection.style.position = 'absolute';
+landingSection.style.top = '8%';
+landingSection.style.left = '8%';
 landingSection.style.alignSelf = 'center';
 landingSection.style.alignContent = 'center';
 landingSection.style.alignItems = 'center';
