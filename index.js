@@ -22,12 +22,12 @@ nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
 
 
 
-document.body.style.maxWidth = window.screen.availWidth;
-document.body.style.width = window.screen.availWidth;
-document.body.style.minWidth = window.screen.availWidth;
-document.body.style.maxHeight = window.screen.availHeight;
-document.body.style.height = window.screen.availHeight;
-document.body.style.minHeight = window.screen.availHeight;
+nomadbody.style.maxWidth = window.screen.availWidth;
+nomadbody.style.width = window.screen.availWidth;
+nomadbody.style.minWidth = window.screen.availWidth;
+nomadbody.style.maxHeight = window.screen.availHeight;
+nomadbody.style.height = window.screen.availHeight;
+nomadbody.style.minHeight = window.screen.availHeight;
 
 // create main element
 const nmmain = document.createElement('main');
@@ -75,8 +75,8 @@ nomadheading.style.color = '#929500';
 // nomadheading.style.borderRadius = '3.2em 0.26em 0.11em 0.26em';
 nomadheading.style.letterSpacing = '0.092em';
 // append children to the body
-document.body.onload = function() {
-    document.body.appendChild(nmmain);
+nomadbody.onload = function() {
+    nomadbody.appendChild(nmmain);
     nmmain.appendChild(landingSection);
     landingSection.appendChild(nomadheading)
 
