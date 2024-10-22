@@ -12,12 +12,12 @@ const nmmain = document.createElement('main');
 //nmmain.style.fontSize = '300%';
 nmmain.style.alignSelf = 'center';
 nmmain.style.justifySelf = 'center';
-// nmmain.style.maxWidth = window.screen.availWidth;
-// nmmain.style.width = window.screen.availWidth;
-// nmmain.style.minWidth = window.screen.availWidth;
-// nmmain.style.maxHeight = window.screen.availHeight;
-// nmmain.style.height = window.screen.availHeight;
-// nmmain.style.minHeight = window.screen.availHeight;
+nmmain.style.maxWidth = window.screen.availWidth;
+nmmain.style.width = window.screen.availWidth;
+nmmain.style.minWidth = window.screen.availWidth;
+nmmain.style.maxHeight = window.screen.availHeight;
+nmmain.style.height = window.screen.availHeight;
+nmmain.style.minHeight = window.screen.availHeight;
 // nmmain.style.backgroundColor = '#002611';
 
 // create a div element to display 
