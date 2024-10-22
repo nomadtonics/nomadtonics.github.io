@@ -10,24 +10,24 @@ const nomadbody = document.querySelector('body');
 // bg style static elements
 nomadrootdoc.style.backgroundColor = '#000';
 nomadrootdoc.style.color = '#fff';
-// nomadrootdoc.style.width = window.screen.availWidth;
-// nomadrootdoc.style.height = window.screen.availHeight;
-nomadrootdoc.style.width = '50%';
-nomadrootdoc.style.height = '50%';
+nomadrootdoc.style.width = window.screen.availWidth;
+nomadrootdoc.style.height = window.screen.availHeight;
+// nomadrootdoc.style.width = '50%';
+// nomadrootdoc.style.height = '50%';
 
-nomadhtml.style.backgroundColor = '#002611';
-nomadhtml.style.color = '#000429';
+// nomadhtml.style.backgroundColor = '#002611';
+// nomadhtml.style.color = '#000429';
 nomadhtml.style.width = window.screen.availWidth;
 nomadhtml.style.height = window.screen.availHeight;
 
 nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
 
-nomadbody.style.backgroundColor = '#042900';
-nomadbody.style.color = '#261100';
-// nomadbody.style.width = window.screen.availWidth;
-// nomadbody.style.height = window.screen.availHeight;
-nomadbody.style.width = '25%';
-nomadbody.style.height = '25%';
+// nomadbody.style.backgroundColor = '#042900';
+// nomadbody.style.color = '#261100';
+nomadbody.style.width = window.screen.availWidth;
+nomadbody.style.height = window.screen.availHeight;
+// nomadbody.style.width = '25%';
+// nomadbody.style.height = '25%';
 
 // create main element
 const nomadmain = nomadtemplate('main');
