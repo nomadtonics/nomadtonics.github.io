@@ -1,4 +1,5 @@
-const nomad = require('./js/nomad.js').nomadtemplate;
+import nomadtemplate from './js/nomad.js';
+
 // create element variables
 const nomadrootdoc = document.documentElement;
 const nomadhtml = document.querySelector('html');
@@ -29,7 +30,7 @@ nomadbody.style.width = '25%';
 nomadbody.style.height = '25%';
 
 // create main element
-const nomadmain = nomad('main');
+const nomadmain = nomadtemplate('main');
 nomadmain.style.position = 'relative';
 nomadmain.style.width = 'inherit';
 nomadmain.style.height = 'inherit';
