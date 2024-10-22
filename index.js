@@ -12,6 +12,7 @@ const nmmain = document.createElement('main');
 //nmmain.style.fontSize = '300%';
 nmmain.style.alignSelf = 'center';
 nmmain.style.justifySelf = 'center';
+nmmain.style.alignContent = 'center';
 nmmain.style.justifyContent = 'center';
 nmmain.style.maxWidth = 'inherit';
 nmmain.style.width = 'inherit';
