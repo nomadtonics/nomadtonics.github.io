@@ -35,6 +35,7 @@ nomadheading.style.textShadow = '0 0 0.26em #929500';
 nomadheading.style.color = '#929500';
 nomadheading.style.background = 'transparent';
 nomadheading.style.padding = '8%';
+nomadheading.style.textAlign = 'center';
 nomadheading.style.boxShadow = 'inset 0 0 0.26em 0 #929500';
 nomadheading.style.borderRadius = '2.6em';
 // append children to the body
