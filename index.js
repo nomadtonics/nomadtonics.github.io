@@ -8,15 +8,15 @@ const nomadbody = document.querySelector('body');
 // bg style static elements
 nomadrootdoc.style.backgroundColor = '#000';
 nomadrootdoc.style.color = '#fff';
-nomadrootdoc.style.width = window.screen.availWidth;
-nomadrootdoc.style.height = window.screen.availHeight;
+// nomadrootdoc.style.width = window.screen.availWidth;
+// nomadrootdoc.style.height = window.screen.availHeight;
+nomadrootdoc.style.width = '50%';
+nomadrootdoc.style.height = '50%';
 
 nomadhtml.style.backgroundColor = '#002611';
 nomadhtml.style.color = '#000429';
-// nomadhtml.style.width = window.screen.availWidth;
-nomadhtml.style.width = '50%';
-// nomadhtml.style.height = window.screen.availHeight;
-nomadhtml.style.height = '50%';
+nomadhtml.style.width = window.screen.availWidth;
+nomadhtml.style.height = window.screen.availHeight;
 
 nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
 
