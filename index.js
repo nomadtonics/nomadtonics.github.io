@@ -1,5 +1,6 @@
 // create main element
 const nmmain = document.createElement('main');
+nmmain.textContent = 'nomadtonics'.toUpperCase();
 nmmain.setAttribute('id', 'nm-main');
 nmmain.style.maxWidth = window.screen.availWidth;
 nmmain.style.width = window.screen.availWidth;
