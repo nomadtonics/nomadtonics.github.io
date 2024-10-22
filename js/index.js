@@ -1,4 +1,4 @@
-import nomadtemplate from './js/nomad.js';
+import nomadtemplate from './nomad.js';
 
 // create element variables
 const nomadrootdoc = document.documentElement;
