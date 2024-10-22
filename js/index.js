@@ -36,7 +36,7 @@ nomadmain.style.width = 'inherit';
 nomadmain.style.height = 'inherit';
 
 // create a div element to display 
-const sectionone = document.createElement('section');
+const sectionone = nomadtemplate('section');
 sectionone.style.position = 'absolute';
 sectionone.style.top = '8%';
 sectionone.style.left = '8%';
@@ -48,7 +48,7 @@ sectionone.style.justifyContent = 'center';
 sectionone.style.justifyItems = 'center';
 
 // heading to display
-const nomadheading = document.createElement('h1');
+const nomadheading = nomadtemplate('h1');
 nomadheading.style.alignSelf = 'right';
 nomadheading.textContent = `${nomadtitle.textContent} ello world welcome to the place where you're lost enough to guide me where i am.`;
 nomadheading.style.fontSize = '100%';
