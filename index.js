@@ -44,12 +44,8 @@ if (window.screen.availHeight !== nomadbody.style.height) {
 // create main element
 const nmmain = document.createElement('main');
 nmmain.style.position = 'relative';
-nmmain.style.maxWidth = 'inherit';
 nmmain.style.width = 'inherit';
-nmmain.style.minWidth = 'inherit';
-nmmain.style.maxHeight = 'inherit';
 nmmain.style.height = 'inherit';
-nmmain.style.minHeight = 'inherit';
 
 // create a div element to display 
 const landingSection = document.createElement('section');
