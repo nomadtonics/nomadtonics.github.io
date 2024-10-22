@@ -6,25 +6,25 @@ const nomadtitle = document.querySelector('title');
 const nomadbody = document.querySelector('body');
 
 // bg style static elements
-nomadrootdoc.style.backgroundColor = '#11269287';
-nomadrootdoc.style.color = '#29049578';
+nomadrootdoc.style.backgroundColor = '#000';
+nomadrootdoc.style.color = '#fff';
 nomadrootdoc.style.width = window.screen.availWidth;
 nomadrootdoc.style.height = window.screen.availHeight;
 
-nomadhtml.style.backgroundColor = '#112600';
-nomadhtml.style.color = '#29049578';
+nomadhtml.style.backgroundColor = '#002611';
+nomadhtml.style.color = '#000429';
 // nomadhtml.style.width = window.screen.availWidth;
-nomadhtml.style.width = '600px';
+nomadhtml.style.width = '50%';
 // nomadhtml.style.height = window.screen.availHeight;
-nomadhtml.style.height = '600px';
+nomadhtml.style.height = '50%';
 
 nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
 
-nomadbody.style.backgroundColor = '#110000';
-nomadbody.style.color = '#29049578';
+nomadbody.style.backgroundColor = '#042900';
+nomadbody.style.color = '#261100';
 // nomadbody.style.width = window.screen.availWidth;
-nomadbody.style.width = '250px';
-nomadbody.style.height = '25px';
+nomadbody.style.width = '25%';
+nomadbody.style.height = '25%';
 
 // create main element
 const nomadmain = document.createElement('main');
