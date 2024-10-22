@@ -5,18 +5,16 @@ const nomadhead = document.querySelector('head');
 const nomadtitle = document.querySelector('title');
 const nomadbody = document.querySelector('body');
 
-nomadrootdoc.style.backgroundColor = '#11269287';
 // bg style static elements
-for (let nomadelement in (nomadrootdoc, nomadhtml, nomadbody)) {
-    nomadelement.style.color = '#29049578';
-    nomadelement.style.width = '100vw';
-    if (window.screen.availWidth !== nomadelement.style.width) {
-        nomadelement.style.width = window.screen.availWidth;
-    }
-    nomadelement.style.height = '100vh';
-    if (window.screen.availHeight !== nomadelement.style.height) {
-        nomadelement.style.height = window.screen.availHeight;
-    }
+nomadrootdoc.style.backgroundColor = '#11269287';
+nomadrootdoc.style.color = '#29049578';
+nomadrootdoc.style.width = '100vw';
+if (window.screen.availWidth !== nomadrootdoc.style.width) {
+    nomadrootdoc.style.width = window.screen.availWidth;
+}
+if (window.screen.availHeight !== nomadrootdoc.style.height) {
+    nomadrootdoc.style.height = window.screen.availHeight;
+    nomadrootdoc.style.height = '100vh';
 }
 
 nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
