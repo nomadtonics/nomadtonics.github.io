@@ -31,16 +31,17 @@ const nomadtitle = document.querySelector('title');
 nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
 
 const nomadheading = document.createElement('h1');
-nomadheading.style.justifySelf = 'right';
+nomadheading.style.alignSelf = 'right';
+// nomadheading.style.justifySelf = 'right';
 nomadheading.textContent = nomadtitle.textContent;
 nomadheading.style.fontSize = '300%';
 nomadheading.style.textShadow = '0 0 0.26em #929500';
 nomadheading.style.color = '#929500';
 //nomadheading.style.background = 'transparent';
-nomadheading.style.padding = '8%';
-nomadheading.style.textAlign = 'right';
-nomadheading.style.boxShadow = 'inset 0 0 0.26em 0 #929500';
-nomadheading.style.borderRadius = '3.2em 0.26em 0.11em 0.26em';
+// nomadheading.style.padding = '8%';
+// nomadheading.style.textAlign = 'right';
+// nomadheading.style.boxShadow = 'inset 0 0 0.26em 0 #929500';
+// nomadheading.style.borderRadius = '3.2em 0.26em 0.11em 0.26em';
 nomadheading.style.letterSpacing = '0.092em';
 // append children to the body
 document.body.onload = function() {
