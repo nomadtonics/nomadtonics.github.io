@@ -39,6 +39,7 @@ nomadheading.style.padding = '8%';
 nomadheading.style.textAlign = 'right';
 nomadheading.style.boxShadow = 'inset 0 0 0.26em 0 #929500';
 nomadheading.style.borderRadius = '2.6em 0.26em 0.11em 0.26em';
+nomadheading.style.letterSpacing = '0.092em';
 // append children to the body
 document.body.onload = function() {
     document.body.appendChild(nmmain);
