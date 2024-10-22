@@ -64,13 +64,9 @@ nomadheading.style.letterSpacing = '0.092em';
 // append children to the body
 nomadbody.onload = function() {
     nomadbody.appendChild(nomadmain);
+    nomadmain.appendChild(sectionone);
+    sectionone.appendChild(nomadheading);
 }
 nomadbody.onmouseover = function() {
     nomadbody.style.backgroundColor = '#002611';
-}
-nomadmain.onload = function(){
-    nomadmain.appendChild(sectionone);
-}
-sectionone.onload = function() {
-    sectionone.appendChild(nomadheading);
 }
