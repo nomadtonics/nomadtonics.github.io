@@ -75,7 +75,7 @@ nomadbody.onmouseover = function() {
 const logindiv = nomadtemplate('div');
 logindiv.textContent = "login";
 logindiv.style.textTransform = "capitalize";
-nomadbody.appendChild(logindiv);
+nomadmain.appendChild(logindiv);
 
 const usernameinput = nomadtemplate("input");
 usernameinput.style.background = "transparent";
