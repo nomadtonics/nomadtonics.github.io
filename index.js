@@ -4,17 +4,18 @@ document.body.style.minWidth = window.screen.availWidth;
 document.body.style.maxHeight = window.screen.availHeight;
 document.body.style.height = window.screen.availHeight;
 document.body.style.minHeight = window.screen.availHeight;
+document.body.style.backgroundColor = '#002611';
 // create main element
 const nmmain = document.createElement('main');
 nmmain.textContent = 'nomadtonics'.toUpperCase();
 nmmain.setAttribute('id', 'nm-main');
-document.body.style.maxWidth = window.screen.availWidth;
-document.body.style.width = window.screen.availWidth;
-document.body.style.minWidth = window.screen.availWidth;
-document.body.style.maxHeight = window.screen.availHeight;
-document.body.style.height = window.screen.availHeight;
-document.body.style.minHeight = window.screen.availHeight;
-nmmain.style.backgroundColor = '#002611';
+// nmmain.style.maxWidth = window.screen.availWidth;
+// nmmain.style.width = window.screen.availWidth;
+// nmmain.style.minWidth = window.screen.availWidth;
+// nmmain.style.maxHeight = window.screen.availHeight;
+// nmmain.style.height = window.screen.availHeight;
+// nmmain.style.minHeight = window.screen.availHeight;
+// nmmain.style.backgroundColor = '#002611';
 
 // create a div element to display 
 const landingSection = document.createElement('section');
