@@ -10,6 +10,8 @@ const nmmain = document.createElement('main');
 nmmain.textContent = 'nomadtonics'.toUpperCase();
 nmmain.setAttribute('id', 'nm-main');
 nmmain.style.fontSize = '300%';
+nmmain.style.alignSelf = 'center';
+nmmain.style.justifySelf = 'center';
 // nmmain.style.maxWidth = window.screen.availWidth;
 // nmmain.style.width = window.screen.availWidth;
 // nmmain.style.minWidth = window.screen.availWidth;
