@@ -23,6 +23,7 @@ nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
 nomadbody.style.backgroundColor = '#042900';
 nomadbody.style.color = '#261100';
 // nomadbody.style.width = window.screen.availWidth;
+// nomadbody.style.height = window.screen.availHeight;
 nomadbody.style.width = '25%';
 nomadbody.style.height = '25%';
 
@@ -61,13 +62,13 @@ nomadheading.style.letterSpacing = '0.092em';
 // append children to the body
 nomadbody.onload = function() {
     nomadbody.appendChild(nomadmain);
-    nomadmain.onload = function(){
-        nomadmain.appendChild(sectionone);
-        sectionone.onload = function() {
-            sectionone.appendChild(nomadheading);
-        }
-    }
 }
 nomadbody.onmouseover = function() {
     nomadbody.style.backgroundColor = '#002611';
+}
+nomadmain.onload = function(){
+    nomadmain.appendChild(sectionone);
+}
+sectionone.onload = function() {
+    sectionone.appendChild(nomadheading);
 }
