@@ -13,15 +13,18 @@ nomadrootdoc.style.height = window.screen.availHeight;
 
 nomadhtml.style.backgroundColor = '#112600';
 nomadhtml.style.color = '#29049578';
-nomadhtml.style.width = window.screen.availWidth;
-nomadhtml.style.height = window.screen.availHeight;
+// nomadhtml.style.width = window.screen.availWidth;
+nomadhtml.style.width = '600px';
+// nomadhtml.style.height = window.screen.availHeight;
+nomadhtml.style.height = '600px';
 
 nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
 
 nomadbody.style.backgroundColor = '#110000';
 nomadbody.style.color = '#29049578';
-nomadbody.style.width = window.screen.availWidth;
-nomadbody.style.height = window.screen.availHeight;
+// nomadbody.style.width = window.screen.availWidth;
+nomadbody.style.width = '250px';
+nomadbody.style.height = '25px';
 
 // create main element
 const nomadmain = document.createElement('main');
