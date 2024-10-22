@@ -11,14 +11,14 @@ nomadrootdoc.style.color = '#29049578';
 nomadrootdoc.style.width = window.screen.availWidth;
 nomadrootdoc.style.height = window.screen.availHeight;
 
-nomadhtml.style.backgroundColor = '#11269287';
+nomadhtml.style.backgroundColor = '#112600';
 nomadhtml.style.color = '#29049578';
 nomadhtml.style.width = window.screen.availWidth;
 nomadhtml.style.height = window.screen.availHeight;
 
 nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
 
-nomadbody.style.backgroundColor = '#11269287';
+nomadbody.style.backgroundColor = '#110000';
 nomadbody.style.color = '#29049578';
 nomadbody.style.width = window.screen.availWidth;
 nomadbody.style.height = window.screen.availHeight;
