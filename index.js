@@ -25,6 +25,13 @@ nmmain.style.minHeight = 'inherit';
 
 // create a div element to display 
 const landingSection = document.createElement('section');
+landingSection.style.alignSelf = 'center';
+landingSection.style.alignContent = 'center';
+landingSection.style.alignItems = 'center';
+landingSection.style.justifySelf = 'center';
+landingSection.style.justifyContent = 'center';
+landingSection.style.justifyItems = 'center';
+
 //landingSection.textContent = 'welcome to nomadtonics!';
 //landingSection.setAttribute('width', 'inherit');
 // landingSection.style.
