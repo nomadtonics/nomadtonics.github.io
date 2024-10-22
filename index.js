@@ -7,9 +7,9 @@ document.body.style.minHeight = window.screen.availHeight;
 document.body.style.backgroundColor = '#002611';
 // create main element
 const nmmain = document.createElement('main');
-nmmain.textContent = 'nomadtonics'.toUpperCase();
-nmmain.setAttribute('id', 'nm-main');
-nmmain.style.fontSize = '300%';
+//nmmain.textContent = 'nomadtonics'.toUpperCase();
+//nmmain.setAttribute('id', 'nm-main');
+//nmmain.style.fontSize = '300%';
 nmmain.style.alignSelf = 'center';
 nmmain.style.justifySelf = 'center';
 // nmmain.style.maxWidth = window.screen.availWidth;
@@ -22,7 +22,7 @@ nmmain.style.justifySelf = 'center';
 
 // create a div element to display 
 const landingSection = document.createElement('section');
-landingSection.textContent = 'welcome to nomadtonics!';
+//landingSection.textContent = 'welcome to nomadtonics!';
 //landingSection.setAttribute('width', 'inherit');
 // landingSection.style.
 const nomadtitle = document.querySelector('title');
@@ -30,7 +30,7 @@ nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
 
 const nomadheading = document.createElement('h1');
 nomadheading.textContent = nomadtitle.textContent;
-
+nomadheading.style.fontSize = '300%';
 // append children to the body
 document.body.onload = function() {
     document.body.appendChild(nmmain);
