@@ -32,6 +32,8 @@ nomadheading.textContent = nomadtitle.textContent;
 // append children to the body
 document.body.onload = function() {
     document.body.appendChild(nmmain);
+    document.body.appendChild(nomadtitle);
     nmmain.appendChild(landingSection);
+    landingSection.appendChild(nomadheading)
 
 }
