@@ -30,6 +30,7 @@ const nomadtitle = document.querySelector('title');
 nomadtitle.textContent = nomadtitle.textContent.toUpperCase();
 
 const nomadheading = document.createElement('h1');
+nomadheading.style.justifySelf = 'right';
 nomadheading.textContent = nomadtitle.textContent;
 nomadheading.style.fontSize = '300%';
 nomadheading.style.textShadow = '0 0 0.26em #929500';
