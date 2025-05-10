@@ -1,6 +1,6 @@
 import nomadtemplate from './nomad.js';
 
-const nomadmain = document.getElementId("nomad-main");
+const nomadmain = document.getElementById("nomad-main");
 nomadmain.textContent = "welcome to nomads".toUpperCase();
 
 const logincard = document.createElement("div");
