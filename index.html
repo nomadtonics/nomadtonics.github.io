@@ -67,7 +67,18 @@
             </style>
         </footer>
         <script>
-            console.log("i'm right here...");
+            async function getlogindetails(params) {
+                const logincard = document.getElementById("login-card");
+                const username = document.getElementById("username");
+                const password = document.getElementById("password");
+                const loginbtn = document.getElementById("login-btn");
+                function loginbtnsubmit() {
+                    logincard.style.display = none;
+                }
+                loginbtn.onclick = loginbtnsubmit;
+            }
+            window.onload = getlogindetails;
+            
         </script>
     </body>
 </html>
