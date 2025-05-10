@@ -38,6 +38,15 @@
             <h1>nomads</h1>
         </header>
         <main>
+            <div id="login-card">
+                <h2>sign in</h2>
+                <form action="/login" method="get">
+                    <input type="text" name="username" id="username" required>
+                    <input type="password" name="password" id="password" required>
+                    <button type="submit" id="login-btn">sign in</button>
+                </form>
+                <span id="login-card-small-message"></span>
+            </div>
             <svg xmlns="https://wwww.w3.org/2000/svg/" viewBox="0 0 100 100" width="100" height="100">
                 <rect width="100%" height="100%" style="border-radius: 26px;"/>
                 <path d="M8 8L92 8L92 92L8 92ZM8 92L8 8L92 92M50 50L92 8" stroke="#261192" stroke="#261192" />
