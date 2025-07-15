@@ -1,9 +1,17 @@
 // neon monkey
 
 
+
+
+
+
+
 let nmon = document.createElement("div");
+nmon.innerHtml = `<h1>NM0N</h1>`;
+nmon.style.color = "white";
 nmon.addEventListener("click", function () {
     nmon.innerHtml = `hello`;
+    nmon.style.color = "white";
 });
 
 const NM0N = nmon.copy();
