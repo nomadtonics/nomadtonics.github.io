@@ -28,7 +28,9 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run Neon Monkey
-      run: python Ni0nM0nkE.py
+      run: |
+        uvicorn app:app --reload
+        python Ni0nM0nkE.py
 
     #- name: Lint code
       #run: npm run lint
