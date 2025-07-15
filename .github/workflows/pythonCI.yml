@@ -29,8 +29,8 @@ jobs:
 
     - name: Run Neon Monkey
       run: |
-        uvicorn app:app --reload
         python Ni0nM0nkE.py
+        # uvicorn app:app --reload
 
     #- name: Lint code
       #run: npm run lint
