@@ -1,10 +1,9 @@
 // neon monkey
 
 
-
-
-
-
+for (let i in { "header", "main", "footer" }) {
+    document.getElementByTagName(i).style.display = 'none';
+}
 
 let nmon = document.createElement("div");
 nmon.innerHtml = `<h1>NM0N</h1>`;
