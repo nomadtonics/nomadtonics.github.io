@@ -2,7 +2,8 @@
 
 
 let nmon = document.createElement("div");
-nmon.addEventListener("click", 
+nmon.addEventListener("click", function () {
+    nmon.innerHtml = `hello`;
 
 
 
