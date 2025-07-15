@@ -68,3 +68,5 @@ while running:
 # Clean up
 pygame.quit()
 sys.exit()
+
+import NM0N
