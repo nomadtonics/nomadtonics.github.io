@@ -114,12 +114,16 @@
             nmon.style.color = "#def";
             
             function resizenmon() {
-                nmon.textContent += " "+ nmon.index('NM0N')
+                nmon.textContent += " "+ nmon.index('NM0N');
+            }
+            
+            resizenmon();
+            
             document.body.addEventListener("load", () => {
                 body.appendChild(nmon);
             });
             
-            document.body.appendChild(nmon);
+            // document.body.appendChild(nmon);
         </script>
     </body>
 </html>
