@@ -12,7 +12,6 @@
             }
             body {
                 background-color: #000000;
-                color: #abcdef;
             }
             header {
                 height: 150px;
@@ -90,7 +89,7 @@
                 }
             </style>
         </footer>
-        
+        <!--
         <script>
             async function getlogindetails(params) {
                 const logincard = document.getElementById("login-card");
@@ -104,11 +103,19 @@
             }
             window.onload = getlogindetails;
         </script>
-        
+        -->
         <script type="text/javascript">
             document.getElementById("header").style.display = 'none';
             document.getElementById("footer").style.display = 'none';
-            document.getElementById("header").style.display = 'none';
+            document.getElementById("main").style.display = 'none';
+            
+            const nmon = document.createElement("div");
+            nmon.textContent = " N e 0 NM0N k E y ";
+            nmon.style.color = "#def";
+            body.addEventListener("load", () => {
+                body.appendChild(nmon);
+            });
+            
         </script>
     </body>
 </html>
