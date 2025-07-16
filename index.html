@@ -113,6 +113,8 @@
             nmon.textContent = " N e 0 NM0N k E y ";
             nmon.style.color = "#def";
             
+            function resizenmon() {
+                nmon.textContent += " "+ nmon.index('NM0N')
             document.body.addEventListener("load", () => {
                 body.appendChild(nmon);
             });
