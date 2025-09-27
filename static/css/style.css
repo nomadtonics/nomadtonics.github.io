@@ -4,6 +4,8 @@ padding: 0;
 box-sizing: border-box;
 }
 #nomadtonics {
+position: absolute;
+top: 0;
 height: 100vmin;
 background-color: #261192;
 color: #abcdef;
