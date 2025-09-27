@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>no mad</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                background-color: #000000;
+            }
+            header {
+                height: 150px;
+                display: inherit;
+                align-items: center;
+                justify-content: space-around;
+            }
+            main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            footer {
+                height: 80px;
+                display: inherit;
+                align-items: center;
+                justify-content: center;
+            }
+            input {
+                width: inherit;
+                background-color: transparent;
+                border: 2px solid #261192;
+                margin: 2px;
+                padding: 8px;
+            }
+            #login-card {
+                margin: 10px;
+                width: 350px;
+                padding: 10px 20px;
+                box-shadow: 2px #239728 inset;
+                border-radius: 26px;
+                border: solid 2px #261192;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            #login-card form {
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="header">
+            <h1>nomads</h1>
+            <svg xmlns="https://wwww.w3.org/2000/svg/" viewBox="0 0 100 100" width="100" height="100">
+                <rect width="100%" height="100%" style="border-radius: 26px;"/>
+                <path d="M8 8L92 8L92 92L8 92ZM8 92L8 8L92 92M50 50L92 8" stroke="#261192" stroke="#261192" />
+            </svg>
+        </header>
+        <main id="main">
+            <div id="login-card">
+                <h2>sign in</h2>
+                <form action="/" method="post">
+                    <input type="text" name="username" id="username" required>
+                    <input type="password" name="password" id="password" required>
+                    <button type="submit" id="login-btn">sign in</button>
+                </form>
+                <span id="login-card-small-message"></span>
+            </div>
+            <svg xmlns="https://wwww.w3.org/2000/svg/" viewBox="0 0 100 400" width="100" height="400">
+                <rect width="100%" height="100%" style="border-radius: 26px;"/>
+                <path d="M8 8L92 8L92 92L8 92ZM8 92L8 8L92 92M50 50L92 8" stroke="#261192" stroke="#261192" />
+            </svg>
+        </main>
+        <footer id="footer">
+            <div id="footer-nomad">
+                NOMADS &copy; All Rights Reserved.
+            </div>
+            <style>
+                #footer-nomad {
+                    font-size: 12px;
+                }
+            </style>
+        </footer>
+        <!--
+        <script>
+            async function getlogindetails(params) {
+                const logincard = document.getElementById("login-card");
+                const username = document.getElementById("username");
+                const password = document.getElementById("password");
+                const loginbtn = document.getElementById("login-btn");
+                function loginbtnsubmit() {
+                    logincard.style.display = none;
+                }
+                loginbtn.onclick = loginbtnsubmit;
+            }
+            window.onload = getlogindetails;
+        </script>
+        -->
+        <script type="text/javascript">
+            document.getElementById("header").style.display = 'none';
+            document.getElementById("footer").style.display = 'none';
+            document.getElementById("main").style.display = 'none';
+            
+            const nmon = document.createElement("div");
+            nmon.textContent = " N e 0 NM0N k E y ";
+            nmon.style.color = "#def";
+            
+            function resizenmon() {
+                nmon.textContent += " "+ nmon.index('NM0N');
+            }
+            
+            resizenmon();
+            
+            document.body.addEventListener("load", () => {
+                document.body.appendChild(nmon);
+            });
+            
+            document.body.appendChild(nmon);
+            const logo = document.createElement(“div”);
+logo.style.position = “absolute”;
+logo.style.top = 0;
+logo.textContent = “neon monkey”;
+
+document.body.append(logo);
+        </script>
+    </body>
+</html>
