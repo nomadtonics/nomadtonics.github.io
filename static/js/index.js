@@ -1,6 +1,6 @@
 const body = document.body;
 
-const nomad = document.getElementById("nomadtonics");
+const nomad = document.getElementById("nomadtonics-main");
 
 nomad.textContent = "nomatonics";
 
