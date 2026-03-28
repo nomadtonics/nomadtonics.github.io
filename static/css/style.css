@@ -3,12 +3,12 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
 html, body {
-background: linear-gradient(bottom, #000, #fff);
+background: #0008;
 }
-#nomadtonics {
-position: absolute;
-top: 0;
-height: 100vmin;
-color: #abcdef;
+
+#nomadtonics-main {
+text-transform: uppercase;
 }
+
