@@ -2,10 +2,11 @@ const body = document.body;
 
 const nomad = document.getElementById("nomadtonics-main");
 
-nomad.textContent = "nomatonics";
+const title = "nomatonics";
 
-nomad.addEventListener("load", () => {
-    nomad.style.width = nomad.style.width * 2;
-    nomad.style.textAlign = "center";
-    nomad.style.padding = "2rem";
-});
+document.title.textContent = title;
+
+hOne = document.createElement('h1');
+hOne.textContent = title;
+
+nomad.appendChild(hOne);
